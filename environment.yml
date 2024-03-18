@@ -1,0 +1,16 @@
+name: nwm-cnn
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - IPython
+  - geojson
+  - python=3.8  # Specifying Python version for better compatibility
+  - jupyter=1.0.*
+  - matplotlib=3.3.*
+  - pandas=1.2.*
+  - numpy=1.20.*  # Adjusted to a version known to include distutils
+  - ipython=7.22.*  # Consistent with Python version
+  - geopandas=0.9.*  # Compatible with older numpy versions
+  - rasterstats=0.15.*  # Ensuring compatibility with numpy/geopandas
+  - libgdal=3.2.*  # GDAL might be a dependency for geospatial libraries
