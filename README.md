@@ -20,9 +20,9 @@ This repository contains the IPython notebooks used for the analysis presented i
 To use the analysis notebooks:
 1. Ensure you have Conda installed.
 2. Clone this repository to your local machine.
-3. Navigate to the repository directory and create the Conda environment from environment.yml:  ``conda env create -f environment.yml``
-4. Activate the environment:  ``conda activate nwm-cnn``
+3. Navigate to the repository directory and create the Conda environment from environment.yml: \\  ``conda env create -f environment.yml``
+4. Activate the environment: \\ ``conda activate nwm-cnn``
 5. Open the Jupyter notebooks in Jupyter Lab or Notebook
 
 # Floodbase
-For more information please visit: [](floodbase.com)
+For more information please visit: [Floodbase](https://www.floodbase.com/about)
