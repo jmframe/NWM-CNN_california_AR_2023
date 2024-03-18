@@ -9,7 +9,7 @@ This repository contains the IPython notebooks used for the analysis presented i
 * environment.yml: Conda environment file to recreate the analysis environment.  
 
 # Data Directory Structure
-* The data used in this analysis is hosted on HydroShare (link to be added) and has the following directory structure within the repository:
+* The data used in this analysis is hosted on HydroShare (http://www.hydroshare.org/resource/dbf8e4c2a39a4c228db867b04f9c21ed) and has the following directory structure within the repository:
 * NWM-CNN_predictions: Predictions from the NWM-CNN model.
 * csv_files: Miscellaneous data files in CSV format.
 * images_for_sacramento_stats: Images and statistics for Sacramento area analysis.
@@ -27,4 +27,4 @@ To use the analysis notebooks:
 5. Open the Jupyter notebooks in Jupyter Lab or Notebook
 
 # Floodbase
-For more information please visit: [Floodbase](https://www.floodbase.com/about)
+For more information please visit: (https://www.floodbase.com/about)
