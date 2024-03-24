@@ -25,6 +25,8 @@ To use the analysis notebooks:
 4. Activate the environment: 
 * ``conda activate nwm-cnn``
 5. Open the Jupyter notebooks in Jupyter Lab or Notebook
+6. Monify the paths to your locally downloaded data, replacing the existing path: 
+* ``LOC_DATA_DIR = "../2023_nwm_cnn_california/"`` 
 
 # Floodbase
 For more information please visit: (https://www.floodbase.com/about)
