@@ -4,7 +4,7 @@ This repository contains the IPython notebooks used for the analysis presented i
 # Repository Structure
 * Figure1.ipynb: Analysis code for Figure 1 in the paper.  
 * Table1.ipynb: Analysis code for Table 1 in the paper.  
-* Figure2: QGIS map, no code available.  
+* Figure2: QGIS map (no code), which can be found in the Hydroshare resource described below.
 * Figure3.ipynb: Analysis code for Figure 3 in the paper.  
 * environment.yml: Conda environment file to recreate the analysis environment.  
 
@@ -22,14 +22,14 @@ To use the analysis notebooks:
 2. Clone this repository to your local machine.
 3. Navigate to the repository directory 
 4. Download the data from the HyroShare link above. 
-* ``wget [link]``
+* ``wget https://www.hydroshare.org/resource/8b76906c4b604c458fbcb5ea7c8c0be7/data/contents/data.zip``
 * Unzip the compressed file. ``unizp data.zip``
 5. create the Conda environment from environment.yml:  
 * ``conda env create -f environment.yml``
 6. Activate the environment: 
 * ``conda activate nwm-cnn``
 7. Open the Jupyter notebooks in Jupyter Lab or Notebook
-8. Modify the paths to your locally downloaded data, replacing the existing path: 
+8. Modify the paths to your locally downloaded data, replacing the existing path if needed: 
 * ``LOC_DATA_DIR = "./data/"`` 
 
 # Floodbase
