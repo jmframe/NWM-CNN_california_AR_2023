@@ -4,12 +4,12 @@ This repository contains the IPython notebooks used for the analysis presented i
 # Repository Structure
 * Figure1.ipynb: Analysis code for Figure 1 in the paper.  
 * Table1.ipynb: Analysis code for Table 1 in the paper.  
-* Figure2: QGIS map, no code available.  
+* Figure2: QGIS map (no code), which can be found in the Hydroshare resource described below.
 * Figure3.ipynb: Analysis code for Figure 3 in the paper.  
 * environment.yml: Conda environment file to recreate the analysis environment.  
 
 # Data Directory Structure
-* The data used in this analysis is hosted on HydroShare (http://www.hydroshare.org/resource/dbf8e4c2a39a4c228db867b04f9c21ed) and has the following directory structure within the repository:
+* The data used in this analysis is hosted on HydroShare (https://www.hydroshare.org/resource/8b76906c4b604c458fbcb5ea7c8c0be7) and has the following directory structure within the repository:
 * NWM-CNN_predictions: Predictions from the NWM-CNN model.
 * csv_files: Miscellaneous data files in CSV format.
 * images_for_sacramento_stats: Images and statistics for Sacramento area analysis.
@@ -20,13 +20,17 @@ This repository contains the IPython notebooks used for the analysis presented i
 To use the analysis notebooks:
 1. Ensure you have Conda installed.
 2. Clone this repository to your local machine.
-3. Navigate to the repository directory and create the Conda environment from environment.yml:  
+3. Navigate to the repository directory 
+4. Download the data from the HyroShare link above. 
+* ``wget https://www.hydroshare.org/resource/8b76906c4b604c458fbcb5ea7c8c0be7/data/contents/data.zip``
+* Unzip the compressed file. ``unizp data.zip``
+5. create the Conda environment from environment.yml:  
 * ``conda env create -f environment.yml``
-4. Activate the environment: 
+6. Activate the environment: 
 * ``conda activate nwm-cnn``
-5. Open the Jupyter notebooks in Jupyter Lab or Notebook
-6. Monify the paths to your locally downloaded data, replacing the existing path: 
-* ``LOC_DATA_DIR = "../2023_nwm_cnn_california/"`` 
+7. Open the Jupyter notebooks in Jupyter Lab or Notebook
+8. Modify the paths to your locally downloaded data, replacing the existing path if needed: 
+* ``LOC_DATA_DIR = "./data/"`` 
 
 # Floodbase
 For more information please visit: (https://www.floodbase.com/about)
